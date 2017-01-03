@@ -1,7 +1,7 @@
 {
     "name": "deepaggarwal",
     "version": "1.0.0",
-    "description": "My personal website written in JavaScript (Node.js and Express.js)",
+    "description": "My personal website written in Node.js and Express.js",
     "author": "Deep Aggarwal <deep.uiuc@gmail.com>",
     "engines": {
         "node": "4.6.0",
