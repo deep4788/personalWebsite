@@ -140,4 +140,8 @@ li {
     #navbar .item-name {
         display: none;
     }
+    footer {
+        padding: 30px 10px;
+        margin-left: 10px;
+    }
 }
