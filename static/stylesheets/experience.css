@@ -5,6 +5,7 @@
     flex-direction: row;
 }
 
+/* Change styling if the viewport is 700 pixels wide or less */
 @media screen and (max-width: 700px) {
     .company-work-info {
         font-weight: bold;

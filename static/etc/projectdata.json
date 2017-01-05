@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Personal Website",
+      "description": "My personal website.",
+      "image": "/images/personalwebsite.png",
+      "url": "https://github.com/deep4788/personalWebsite",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "Express.js,", "JavaScript,", "HTML,", "CSS"] }
+    },
+    {
+      "name": "Mastermind Game",
+      "description": "A classic mastermind puzzle game.",
+      "image": "/images/mastermind.png",
+      "url": "https://github.com/deep4788/appsForFunAndLearning/tree/master/mastermind",
+      "location": "Github",
+      "technologies": { "list": ["JavaScript,", "HTML,", "CSS"] }
+    },
+    {
+      "name": "Halloween Memory Game",
+      "description": "A memory puzzle game with Halloween theme.",
+      "image": "/images/memorygame.png",
+      "url": "https://github.com/deep4788/appsForFunAndLearning/tree/master/memorygame",
+      "location": "Github",
+      "technologies": { "list": ["JavaScript,", "HTML,", "CSS"] }
+    },
+    {
+      "name": "tewp",
+      "description": "A unique text editor with magical powers written using Electron (http://electron.atom.io/)",
+      "image": "/images/tewp.png",
+      "url": "https://github.com/deep4788/tewp",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "Electron,", "JavaScript,", "HTML,", "CSS,", "Google Drive API,", "electron-packager"] }
+    },
+    {
+      "name": "sj",
+      "description": "A command-line utility to search for jobs on Github Jobs based on keywords and location.",
+      "image": "/images/sj.png",
+      "url": "https://github.com/deep4788/searchJobs",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "JavaScript"] }
+    },
+    {
+      "name": "Quick Notes",
+      "description": "An application to take quick notes. Notes get saved in the local browser storage.",
+      "image": "/images/quicknotes.png",
+      "url": "https://github.com/deep4788/quickNotes",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "Express.js,", "JavaScript,", "HTML,", "CSS"] }
+    },
+    {
+      "name": "View GitHub Commits",
+      "description": "A Google Chrome extension that displays monthly GitHub contributions in your contributions graph.",
+      "image": "/images/viewgithubcommits.png",
+      "url": "https://github.com/deep4788/viewGitHubCommits",
+      "location": "Github",
+      "technologies": { "list": ["JavaScript,", "CSS"] }
+    },
+    {
+      "name": "iRead4u",
+      "description": "A Google Chrome extension that reads any text highlighted by you.",
+      "image": "/images/iread4u.png",
+      "url": "https://github.com/deep4788/iRead4u",
+      "location": "Github",
+      "technologies": { "list": ["JavaScript"] }
+    },
+    {
+      "name": "Text-To-Speech",
+      "description": "An application to convert text to speech.",
+      "image": "/images/texttospeech.png",
+      "url": "https://github.com/deep4788/textToSpeech",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "Express.js,", "HTML,", "JavaScript,", "CSS"] }
+    },
+    {
+      "name": "Budget Manager",
+      "description": "An application that keeps track of budget (expenses).",
+      "image": "/images/budgetmanager.png",
+      "url": "https://github.com/deep4788/budgetManager",
+      "location": "Github",
+      "technologies": { "list": ["Python"] }
+    },
+    {
+      "name": "hacknews",
+      "description": "Command line utility to access the Hacker News website in a more fun/useful way.",
+      "image": "/images/hacktechnews.png",
+      "url": "https://github.com/deep4788/hackTechNews",
+      "location": "Github",
+      "technologies": { "list": ["Python"] }
+    },
+    {
+      "name": "todoListApp",
+      "description": "A todo-list web application written using Django Web Framework.",
+      "image": "/images/todolistapp.png",
+      "url": "https://github.com/deep4788/todoListApp",
+      "location": "Github",
+      "technologies": { "list": ["Python,", "JavaScript,", "HTML,", "CSS,", "Django Web Framework"] }
+    },
+    {
+      "name": "calcGPAv2.0",
+      "description": "A cumulative GPA calculator app for Mac OSX.",
+      "image": "/images/calcgpa.png",
+      "url": "https://github.com/deep4788/calcGPAv2.0",
+      "location": "Github",
+      "technologies": { "list": ["C++,", "Qt"] }
+    },
+    {
+      "name": "Hangwoman",
+      "description": "A classic Hangwoman game where you have to guess the name of the movie.",
+      "image": "/images/hangwoman.png",
+      "url": "https://github.com/deep4788/onlineGames",
+      "location": "Github",
+      "technologies": { "list": ["Python,", "JavaScript,", "HTML,", "CSS,", "Django Web Framework"] }
+    },
+    {
+      "name": "Shootin' Goobers",
+      "description": "A python game written using Pygame where the goal is to shoot the peanuts with a chocolate-firing-cannon.",
+      "image": "/images/shootingoober.png",
+      "url": "https://github.com/deep4788/games/tree/master/shoutinGoobers",
+      "location": "Github",
+      "technologies": { "list": ["Python"] }
+    }
+]
+

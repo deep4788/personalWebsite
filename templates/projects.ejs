@@ -7,11 +7,31 @@
         <% include navigationbar.ejs %>
 
         <div id="main">
-            <div id="head">
-                <h1>Projects</h1>
-            </div>
+            <h1>Projects</h1>
 
-            <p>My projects ...</p>
+            <div id="projects-container">
+                <% projectData.forEach(function(data) { %>
+                <div class="project">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <a href="<%= data.url %>" target="_blank">
+                                <img src="<%= data.image %>" class="project-image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <div class="project-name"><%= data.name %></div>
+                        <p><%= data.description %></p>
+                        <div class="technologies-used"><strong>Technologies</strong>:
+                            <% data.technologies.list.forEach(function(technology) { %>
+                                <span><%= technology %></span>
+                            <% }); %>
+                        </div>
+                        <p><a class="right-pane-link" href="<%= data.url %>" target="_blank"><%= data.location %>&nbsp<i class="fa fa-external-link"></i></a></p>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
         </div>
 
         <% include footer.ejs %>
@@ -23,11 +43,3 @@
         <script type="text/javascript" src="/jsfiles/index.js"></script>
     </body>
 </html>
-
-
-
-
-
-
-
-

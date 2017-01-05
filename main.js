@@ -1,15 +1,25 @@
-//Some useful definitions
-portNumber = 5002
+//Load core modules
+const fs = require("fs");
 
 //Create an Express application object and load serve-favicon module
-var express = require("express");
-var favicon = require("serve-favicon");
-var app = express();
+const express = require("express");
+const favicon = require("serve-favicon");
+const app = express();
+
+//Read the projects data
+var projectData;
+fs.readFile(__dirname + "/static/etc/projectdata.json", "utf8", function(err, projdata) {
+    if(err) {
+        throw err;
+    }
+    projectData = JSON.parse(projdata);
+});
 
 //Set the port value
 //  Heroku dynamically assigns your app a port, so you can't set the port to a fixed number
 //  Heroku adds the port to the env, so you can pull it from there, that way it will
 //  still listen to port 5000 when you test locally, but it will also work on Heroku
+portNumber = 5002
 app.set("port", (process.env.PORT || portNumber));
 
 //Serve static content for the app from the "static" directory in the application directory
@@ -28,10 +38,10 @@ app.get("/experience", function(request, response) {
     response.render("experience");
 });
 app.get("/projects", function(request, response) {
-    response.render("projects");
+    response.render("projects", { projectData: projectData, });
 });
 app.get("/resume", function(request, response) {
-    response.render("resume");
+    response.download(__dirname + "/static/etc/Deepanshu_Resume_2017.pdf");
 });
 app.get("/cats", function(request, response) {
     response.render("cats");
