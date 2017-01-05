@@ -24,7 +24,7 @@
       "technologies": { "list": ["JavaScript,", "HTML,", "CSS"] }
     },
     {
-      "name": "tewp",
+      "name": "Tewp",
       "description": "A unique text editor with magical powers written using Electron (http://electron.atom.io/)",
       "image": "/images/tewp.png",
       "url": "https://github.com/deep4788/tewp",
