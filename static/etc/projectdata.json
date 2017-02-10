@@ -5,7 +5,7 @@
       "image": "/images/resumecreator.png",
       "url": "https://github.com/deep4788/resumeCreator",
       "location": "Github",
-      "technologies": { "list": ["Node.js,", "Electron,", "JavaScript,", "HTML,", "CSS,", "Google Drive API,", "electron-packager"] }
+      "technologies": { "list": ["Node.js,", "Electron,", "JavaScript,", "HTML,", "CSS,", "Handlebars.js,", "electron-packager"] }
     },
     {
       "name": "4cast",
