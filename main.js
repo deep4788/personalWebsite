@@ -46,6 +46,9 @@ app.get("/resume", function(request, response) {
 app.get("/cats", function(request, response) {
     response.render("cats");
 });
+app.get("/courses", function(request, response) {
+    response.render("courses");
+});
 
 //Bind and listen for connections on the specified host and port
 app.listen(app.get("port"), function() {
