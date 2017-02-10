@@ -1,5 +1,21 @@
 [
     {
+      "name": "Resume Creator",
+      "description": "An application that lets you create your resume with ease; no headaches of formatting.",
+      "image": "/images/resumecreator.png",
+      "url": "https://github.com/deep4788/resumeCreator",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "Electron,", "JavaScript,", "HTML,", "CSS,", "Google Drive API,", "electron-packager"] }
+    },
+    {
+      "name": "4cast",
+      "description": "A command line utility to get the weather information.",
+      "image": "/images/4cast.png",
+      "url": "https://github.com/deep4788/4cast",
+      "location": "Github",
+      "technologies": { "list": ["Node.js,", "JavaScript"] }
+    },
+    {
       "name": "Personal Website",
       "description": "My personal website.",
       "image": "/images/personalwebsite.png",
